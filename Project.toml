@@ -1,4 +1,4 @@
-name = "IsingModel"
+name = "IsingModels"
 uuid = "8f36ac18-eb4a-11eb-1116-798b5f801d74"
 authors = ["Addison Schile <addschile@gmail.com>"]
 version = "0.0.1"
