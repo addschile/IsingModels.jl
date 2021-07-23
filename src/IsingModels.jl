@@ -2,7 +2,7 @@ module IsingModels
 
 using Random
 
-export IsingModel2D,randomdata,allup,alldown
+export IsingModel2D,randomdata!,allup!,alldown!
 export mcsweeps,mcsweep
 export glaubersweeps
 export calc_magnetization,calc_avg_magnetization
