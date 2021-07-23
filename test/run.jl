@@ -1,7 +1,7 @@
 using Plots
-include("../src/IsingModel.jl")
+using IsingModels
 
-function mag_callback!(model::IsingModel,m)
+function mag_callback!(model,m)
   m[] += calc_avg_magnetization(model)
 end
 
