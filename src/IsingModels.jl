@@ -1,4 +1,4 @@
-module IsingModel
+module IsingModels
 
 using Random
 
