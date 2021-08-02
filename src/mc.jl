@@ -5,10 +5,8 @@ function mcsweep(model::IsingModel)
     ediff::Float64 = localediff(ind,model)
     if ediff < 0
       flipbit!(ind,model)
-    else
-      if rand(model.rng) < exp(-ediff/model.T)
-        flipbit!(ind,model)
-      end
+    else if rand(model.rng) < exp(-ediff/model.T)
+      flipbit!(ind,model)
     end
   end
 end
